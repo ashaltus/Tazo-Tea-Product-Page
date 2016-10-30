@@ -1,0 +1,227 @@
+*{
+  font-family:"Gotham A", "Gotham B", "Gotham" , sans-serif
+  text-transform:uppercase;
+}
+
+/*Recomendation Tab*/
+.drawer-nav{
+	width:25rem;
+	top:10px;
+	height:50%;
+  background-color:#7b7b7b;
+}
+
+.drawer-overlay{
+  background-color:transparent;
+}
+.drawer--right .drawer-nav {
+  right:-30rem;
+  top:10rem;
+}
+
+.drawer--right.drawer-open .drawer-hamburger {
+  right: 25rem;
+}
+.drawer-hamburger{
+	width:16rem;
+	padding-bottom:15px;
+	background:#e45077;
+}
+.drawer-hamburger:hover{
+  background-color:#e45077;
+}
+#recommended{
+  transform:rotate(-90deg);
+  margin-top:270px;
+  margin-right:-62px;
+  color:white;
+  text-transform:uppercase;
+  position: absolute;
+}
+.drawer-menu-item{
+  color:white;
+  font-size:1.5rem;
+  text-align:center;
+}
+
+/*Ingredient Carousel*/
+#owl-demo{
+  margin-top:-75px;
+}
+
+#owl-demo .item{
+  margin: 18px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.owl-pagination{
+  margin-top:-10px;
+}
+
+/*Footer*/
+.footer {
+  position: relative;
+  bottom: -50px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: white;
+}
+#productName{
+  background:transparent;
+  border-color:transparent;
+}
+#productDescription{
+  text-align:center;
+  position:relative;
+  top:-70px;
+  border-color:transparent;
+  background-color:#6dc8b8;
+  color:#fff;  
+}
+.panel-body{
+  padding:7px;
+}
+
+h5{
+  background:transparent;
+  position:relative;
+  text-align:right;
+  text-transform:uppercase;
+  top:-55px;
+}
+/*Nav Bar*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f26a55;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color:#fff;
+  border-color:#fff;
+}
+.navbar-default{
+  background-color:white;
+  height:auto;
+  margin:0;
+  display:inline-block;
+  vertical-align:middle;
+  width:100%;
+}
+
+.navbar-toggle{
+  border:0;
+}
+
+.navbar-nav{
+  background-color:white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+.form-control{
+  border: 2px solid #f26a55;
+}
+.btn-default {
+  color: #fff;
+  background-color: #f26a55;
+  border:0;
+}
+.icon-bar:nth-child(2){
+  width:35px;
+  height:5px;
+}
+.icon-bar:nth-child(3){
+  width:25px;
+  height:5px;
+  padding-left:-10px;
+
+}
+.icon-bar:nth-child(4){
+  width:35px;
+  height:5px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+}
+/*Accordian*/
+#wheretobuy >.panel-heading {
+  background-color: #f26a55;
+  color:white;
+}
+#aboutpassion >.panel-heading {
+  background-color: #f09a3d;
+  color:white;
+}
+.panel{
+  margin-bottom:0px;
+}
+#passion{
+  top:-40px;
+  z-index:-2;
+  position:relative;
+}
+h1 ,.text-muted ,.panel-group{
+  text-transform:uppercase;
+}
+.ingredients{
+  text-transform:lowercase;
+}
+#ingredients{
+  text-align:left;
+}
+h1 ,h2{
+  line-height:.2;
+}
+.social{
+	padding-bottom:5px;
+}
+
+.brew{
+	width:100%;
+	padding:10px;
+}
+h1{
+	font-size:30px;
+}
+
+h2{
+	font-size:20px;
+}
+
+navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 0px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 0px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  top: 8px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+	  top: -8px;
+	  transform: rotate(-45deg);
+}

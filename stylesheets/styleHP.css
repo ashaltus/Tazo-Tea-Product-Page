@@ -1,0 +1,151 @@
+*{
+  font-family:"Gotham A", "Gotham B", "Gotham" , sans-serif
+}
+/*Footer*/
+.footer {
+  position: relative;
+  bottom: -50px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: white;
+}
+/*Nav Bar*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f26a55;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color:#fff;
+  border-color:#fff;
+}
+.navbar-default{
+  background-color:white;
+  height:auto;
+  margin:0;
+  display:inline-block;
+  vertical-align:middle;
+  width:100%;
+}
+.navbar-toggle{
+  border:0;
+}
+.navbar-brand{
+  padding:0;
+}
+.navbar-nav{
+  background-color:white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+.form-control{
+  border: 2px solid #f26a55;
+}
+.btn-default {
+  color: #fff;
+  background-color: #f26a55;
+  border:0;
+}
+.icon-bar:nth-child(2){
+  width:35px;
+  height:5px;
+}
+.icon-bar:nth-child(3){
+  width:25px;
+  height:5px;
+  padding-left:-10px;
+
+}
+.icon-bar:nth-child(4){
+  width:35px;
+  height:5px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+}
+
+navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 0px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 0px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  top: 8px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+	  top: -8px;
+	  transform: rotate(-45deg);
+}
+
+.social{
+	padding-bottom:5px;
+}
+
+.jumbotron{
+	padding:0px;
+	margin-bottom:0px;
+	margin-right:0px;
+}
+.container .jumbotron, .container-fluid .jumbotron, .container{
+	padding-right:0px;
+	padding-left:0px;
+}
+.container{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#quiz-buttons a{
+  background:#f5c480;
+  color:white;
+}
+.row{
+  display:flex;
+}
+
+.col-sm-4{
+  padding:0;
+}
+
+
+
+#Iced{
+  position:absolute;
+  z-index:1;
+}
+
+.IcedButton{
+  background-color:#e45077;
+ color:white;
+ text-transform:uppercase;
+   font-family:"Gotham A", "Gotham B", "Gotham" , sans-serif
+   z-index:1;
+   right:auto;
+   left:auto;
+   display:flex;
+
+
+}
+

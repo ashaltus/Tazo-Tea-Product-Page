@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+	<html>
+  		<head>
+   			<meta charset="utf-8">
+    
+    		<title> Tazo Tea | Passion </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
+        <!--Typography-->
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7491912/7380352/css/fonts.css">
+        <!--Bootstrap stylesheet-->
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" >
+        <!--Drawer stylesheet-->
+        <link rel="stylesheet" href="drawer/dist/css/drawer.min.css">
+        <!--CSS stylesheet-->
+        <link rel="stylesheet" href="stylesheets/style.css"> 
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+
+        <!-- jquery, iScroll, Drawer, Owl Carousel -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+        <script src= "drawer/dist/js/drawer.min.js"></script>
+        <script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
+
+        <!--Bootstrap -->
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- script -->
+    	<script src="js/script.js"></script>
+  	 </head>
+<body> 
+
+<!--Recomendation drawer-->
+ <div class="drawer drawer--right">
+  <header role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger" id="recommended">
+      <span class="sr-only">toggle navigation</span>
+      <span class="recommended"> you may also like</span>
+    </button>
+  	<nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li><a class="drawer-menu-item" href="#"><img src="images/icedpassiontxt.png">
+        	<img src="images/icedpassion.png">
+        </a></li>
+        <li><a class="drawer-menu-item" href="#"><img src="images/orangetxt.png">
+        	<img src="images/orange.png">
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+ </div>
+
+<!--Nav bar-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!--  <img src="images/logo orange.png" <a href="homepage.html" class="navbar-brand"></a> -->
+		<img a href="homepage.html" src="images/logo orange.png">
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Where To Buy</a></li>
+        <li><a href="OurStory/ourstory.html"> Meet Tazo</a></li>
+        <li><a href="#">Contact</a></li>
+        <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Teas">
+        </div>
+        <button type="submit" class="btn btn-default">Find</button>
+      </form>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--Product Title-->   
+<div class="container">
+	  <h1>Passion </h1>
+	  <h2>Herbal tea</h2> 
+</div>
+
+<!--Caffeine Information-->
+<div class="container">
+	  <h5>Caffeine Free</h5>
+</div>
+ 
+<!---Passion Teabox--> 
+<div id="passion"> 
+	<img class="img-responsive center-block" src="images/passionbox.png">
+</div>
+
+<!--Product Description-->
+<div class="panel panel-default" id="productDescription">
+  <div class="panel-body">
+  <p> An exuberant herbal infusion of hibiscus, orange peel, rose hips and passion fruit flavors</p>
+  </div>
+</div>
+
+<!--Ingredient Carousel-->
+<div id="owl-demo">      
+  <div class="item"><img src="images/hibiscusflower.png"></div>
+  <div class="item"><img src="images/orangepeel.png"></div>
+  <div class="item"><img src="images/rosehips.png"></div>
+  <div class="item"><img src="images/licoriceroot.png"></div>
+</div>
+
+ <!--Accordian-->
+ <div class="panel-group text-center" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default" id="wheretobuy">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <p>Where to Buy <span class="glyphicon glyphicon-chevron-down"></span></p>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+     <iframe
+	  width=auto
+	  height=auto
+	  frameborder="0" style="border:0"
+	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBsv55U-jdKiTCpRMo3EKo3OhCkGVum7pE&q=Starbucks+Seattle" allowfullscreen>
+	</iframe>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="aboutpassion">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <p>About Passion <span class="glyphicon glyphicon-chevron-down"></span></p>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body"> 
+        <p id="ingredients"> Ingredients </p>
+        <p class="ingredients" id="ingredients"> hibiscus flowers, natrual tropical flavors, citric acid, licorice root, orange peel, cinnamon, rose hips, lemongrass, fruit juice extract(color)</p>
+        <img class="brew" src="images/brewthebestcup.png">
+        <img src="images/caffeineguide.png">
+        <br>
+        <img src="images/KSAlogo.png">
+      	<img src="images/organiclogo.png">
+      	<img src="images/gmologo.png">
+      	</br>
+      </div>
+    </div>
+  </div> 
+<!--Footer-->
+ <footer class="footer">
+      <div class="container text-center">
+        <p class="text-muted">continue the journey</p>
+        <a href="https://www.instagram.com/tazo/"><img class="social"src="images/instagram.png"></a>
+        <a href="https://www.facebook.com/tazo/"><img class="social" src="images/facebook.png"></a>
+        <a href="https://twitter.com/Tazo"><img class="social" src="images/twitter.png"></a>
+        <p>Contact</p>
+        <p>Products</p>
+        <p>Where to Buy</p>
+        <a href="our story/index.html"><p>Meet Tazo</p></a>
+      </div>
+  </footer>
+
+  </body>
+</html>
